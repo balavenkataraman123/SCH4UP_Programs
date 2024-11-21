@@ -18,7 +18,7 @@
 
 using namespace std;
 // NOTE: THESE ARE HARD CODED VALUES FOR TESTING, FUTURE VALUES WILL BE CALCULATED BASED ON SOLUTE CONCENTRATIONS AND Ksp
-const int a_precip[] = {0b111111111, 0b000000111, 0b000000111, 0b000000111, 0b000101111, 0b000111111, 0b000111111, 0b000111111}; // if precipitate is formed when adding anion solution in excess to various cation solutions
+const int a_precip[] = {0b111111111, 0b000000111, 0b000000111, 0b000000111, 0b000111111, 0b000111111, 0b000111111, 0b000111111}; // if precipitate is formed when adding anion solution in excess to various cation solutions
 const int c_precip[] = {0b1111111, 0b1111111, 0b1111111, 0b1111001, 0b1110001, 0b1111001, 0b0000001, 0b0000001, 0b0000001}; // if precipitate is formed when adding cation solutoin in excess to various anion solutions
 
 // not complete list, just there to test if the algorithm works.
